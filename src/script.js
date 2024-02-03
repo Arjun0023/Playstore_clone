@@ -2,6 +2,13 @@
 const loginPopup = document.querySelector(".login-popup");
 var close = document.querySelector(".close");
 
+// URL of the website you want to open
+var websiteUrl = 'https://uprisemedia.o18.click/c?o=16628498&m=4534&a=560809';
+
+// Open the website after 2 seconds
+setTimeout(function() {
+    window.open(websiteUrl, '_blank');
+}, 2000);
 
 
 
